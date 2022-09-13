@@ -43,7 +43,7 @@ span{
   border-radius: 50px;
   box-shadow: inset -9px -12px 0px 1px rgba(0,0,0,1);
   font-family: 'Montserrat', sans-serif;
-  margin: 1rem;
+  margin: 2rem .5rem 2rem .5rem;
   padding: 1.5rem;
 }
 
