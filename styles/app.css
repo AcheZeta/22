@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,100;1,500&display=swap');
+#E9E7FC
+
+
+*{
+  background-color: whitesmoke;
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+img{
+  align-items: center;
+  border-radius: 50%;
+}
+
+.name{
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; 
+}
+
+span{
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.about{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px black;
+  border-radius: 50px;
+  box-shadow: inset -9px -12px 0px 1px rgba(0,0,0,1);
+  font-family: 'Montserrat', sans-serif;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.link-list {
+  display: block;
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link__item{
+  border: solid 2px black;
+  box-shadow: inset -2px -2px 0px 0px rgba(0,0,0,1);
+  border-radius: 5px;
+  font-weight: 800;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: #E9E7FC;
+  margin: 10px;
+  padding: 10px;
+}
+
