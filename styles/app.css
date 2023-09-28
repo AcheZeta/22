@@ -106,4 +106,13 @@ a.link__item:hover {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .link-list {
+    display: block;
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
 }
